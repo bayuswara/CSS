@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <style media="screen">
+            .container{
+                width: 50%;
+                height: 200px;
+                overflow: auto;
+                margin-left: 0 auto;
+            }
+            .static{ position: static; border: 2px solid green;}
+            .relative{
+                position: relative;
+                border: 2px solid red;
+                left: 20px; /* jarak dari posisi paling kiri sebesar 20px */
+                bottom: 0; /* jarak dari posisi paling bawah sebesar 0px */
+            }
+            .absolute{ position: absolute; border: 2px solid blue; left: 20px; bottom: 40px;}
+            .fixed{position: fixed; border: 2px solid black; bottom: 0; right: 0;}
+            .sticky{
+                position: sticky;
+                border: 2px solid yellow;
+                top: 0;
+                left: 20px;
+                background: darkblue;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <p class="sticky">
+                Ini adalah contoh dari posisi sticky
+            </p>
+
+            <p class="static">
+                <b>Ini adalah contoh dari position static</b> <br>
+                Hollow Knight is a Metroidvania style video game. It was developed and published by Team Cherry. The game was released for Microsoft Windows, macOS, and Linux in 2017, and for the Nintendo Switch, PlayStation 4, and Xbox One in 2018.[1] Development was partially funded through a Kickstarter crowdfunding campaign, raising over A$57,000 by the end of 2014.[2]
+            </p>
+
+            <p class="relative">
+                <b>Ini adalah contoh dari position relative</b> <br>
+                Within the world of Hallownest, "higher beings" are primordial, god-like creatures that exist above all others, possessing certain abilities and powers that regular bugs do not have. Higher beings were often deified; worshiped as gods by other bugs. Prior to the start of the game, a higher being known as the Wyrm had died near Hallownest in order to transform into a new shape, the Pale King. Before the Pale King's arrival, the bugs of Hallownest worshiped a Higher Being known as the Radiance, a powerful moth whose mere presence could sway the denizens of Hallownest to mindless obedience; however, the Pale King was able to expand and civilize the minds of the bugs of Hallownest, leading them to accept him as their ruler, and leaving the Radiance as a distant memory. With his newfound control, the Pale King went on to construct a great kingdom that sprawled over and throughout the lands of Hallownest. However, after some time, the bugs of Hallownest began hearing the whispers of the Radiance in their dreams, and this soon led to an infection of madness and mindlessness that affected many. In order to combat the growing threat, the Pale King created shadowy beings called Vessels that lack a mind and will, and he attempted to contain the Infection by sealing it within a single hollow Vessel. After many attempts, a suitable Vessel, christened the Hollow Knight, was created by the Pale King and used to eventually contain the Infection. The Hollow Knight was placed within the Black Egg Temple and sealed by three powerful elder bugs known as the Dreamers to be locked away forever.
+            </p>
+
+            <p class="absolute">
+                <b>Ini adalah contoh dari position absolute</b> <br>
+                Two additional endings were added with the Godmaster content update, in which the Knight can battle harder versions of all of the bosses in the game in a series of challenges set by a being called the Godseeker. If the Knight completes these challenges and battles the Absolute Radiance as the final boss, the darkness of the Void is summoned again to defeat her, but the Knight instead appears to transform into a massive Void creature and outright destroys the Absolute Radiance. The God Home arena is consumed by darkness as the Godseeker begins oozing Void, which eventually erupts and destroys her as well before appearing to spread out into Hallownest. Hornet then is seen standing by the Temple as the tendrils of Infection turn black. A creature approaches her armed with a weapon and rattling chains, implied to be the Hollow Knight now free from its prison, and Hornet readies for battle.
+            </p>
+
+            <p class="fixed">
+                Ini merupakan contoh dari position fixed
+            </p>
+        </div>
+    </body>
+</html>
